@@ -53,7 +53,10 @@ module ea_mpu
         output logic                    ram_we_o,
         output logic [DATA_WIDTH/8-1:0]  ram_be_o,
         input  logic [DATA_WIDTH-1:0]    ram_rdata_i,
-        output logic [DATA_WIDTH-1:0]    ram_wdata_o
+        output logic [DATA_WIDTH-1:0]    ram_wdata_o,
+        
+        //the access is illegal
+        output logic                    illegal_access 
     );
     
     //for validation
@@ -69,6 +72,7 @@ module ea_mpu
     logic  [VALID_ADDR_WIDTH-1:0]  judge_instr_addr;
     logic                    judge_req;
     
+    logic [1:0]              illegal_access_cycle_counter;  
     
     enum logic [1:0] {IDLE, VALIDATION, LEGAL, ILLEGAL} filter_cs;
 
@@ -78,6 +82,8 @@ module ea_mpu
         if(rst_n == 1'b0)
         begin
             filter_cs       <= IDLE;
+            illegal_access  <= 1'b0;
+            illegal_access_cycle_counter <= 0;
         end
         else
         begin
@@ -87,9 +93,12 @@ module ea_mpu
             unique case(filter_cs)
             IDLE:
             begin
+                //clear interrupt
+                illegal_access_cycle_counter <= 1'b0;
+                illegal_access <= 1'b0;
+            
                 if(ram_mux_req && ram_mux_gnt)
                 begin
-                   
                     //save the state of CPU
                     reg_en <= en_i;
                     reg_addr <= addr_i;
@@ -136,8 +145,12 @@ module ea_mpu
             ILLEGAL:
             begin
                 judge_req    <= 1'b0;
-                $display("hello world\n");
-                filter_cs    <= IDLE;
+                
+                illegal_access <= 1'b1;
+                illegal_access_cycle_counter <= illegal_access_cycle_counter + 1;
+                
+                if(illegal_access_cycle_counter == 3)
+                    filter_cs    <= IDLE;
             end
             endcase
             

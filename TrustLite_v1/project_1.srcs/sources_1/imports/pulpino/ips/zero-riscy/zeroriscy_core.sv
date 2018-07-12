@@ -78,6 +78,7 @@ module zeroriscy_core
   input  logic [4:0]  irq_id_i,
   output logic        irq_ack_o,             // irq ack
   output logic [4:0]  irq_id_o,
+  input  logic        irq_mpu_illegal,       //the illegal access captured by ea_mpu 
 
   // Debug Interface
   input  logic        debug_req_i,
@@ -370,6 +371,9 @@ module zeroriscy_core
     .instr_valid_i                ( instr_valid_id       ),
     .instr_rdata_i                ( instr_rdata_id       ),
     .instr_req_o                  ( instr_req_int        ),
+
+    //illegal access signal from ea_mpu
+    .irq_mpu_illegal              ( irq_mpu_illegal      ),
 
     // Jumps and branches
     .branch_in_ex_o               ( branch_in_ex         ),

@@ -1,2 +1,4 @@
 Vivado Simulator 2017.4
 Time resolution is 1 ps
+              595000: Illegal instruction (core 0) at PC 0x000080e4:
+              625000: Illegal instruction (core 0) at PC 0x00008084:

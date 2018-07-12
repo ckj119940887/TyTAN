@@ -63,6 +63,9 @@ module zeroriscy_id_stage
     input  logic       [31:0] instr_rdata_i,      // comes from pipeline of IF stage
     output logic              instr_req_o,
 
+    // signal from ea_mpu
+    input  logic        irq_mpu_illegal,
+
     // Jumps and branches
     output logic        branch_in_ex_o,
     input  logic        branch_decision_i,
@@ -528,7 +531,7 @@ module zeroriscy_id_stage
 
     // decoder related signals
     .deassert_we_o                  ( deassert_we            ),
-    .illegal_insn_i                 ( illegal_insn_dec | illegal_reg_rv32e ),
+    .illegal_insn_i                 ( illegal_insn_dec | illegal_reg_rv32e | irq_mpu_illegal/*the illegal access from ea_mpu*/ ),
     .ecall_insn_i                   ( ecall_insn_dec         ),
     .mret_insn_i                    ( mret_insn_dec          ),
     .pipe_flush_i                   ( pipe_flush_dec         ),

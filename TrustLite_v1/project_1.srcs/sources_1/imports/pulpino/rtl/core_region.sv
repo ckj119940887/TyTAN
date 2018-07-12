@@ -108,7 +108,8 @@ module core_region
   logic [AXI_DATA_WIDTH-1:0]   data_mem_rdata;
   logic [AXI_DATA_WIDTH-1:0]   data_mem_wdata;
 
-
+  //illegal access signal from ea_mpu
+  logic irq_mpu_illegal;
 
   enum logic [0:0] { AXI, RAM } lsu_resp_CS, lsu_resp_NS;
 
@@ -183,6 +184,7 @@ module core_region
         .irq_id_i        ( irq_id            ),
         .irq_ack_o       (                   ),
         .irq_id_o        (                   ),
+        .irq_mpu_illegal ( irq_mpu_illegal   ),     //illegal access from ea_mpu
 
         .debug_req_i     ( debug.req         ),
         .debug_gnt_o     ( debug.gnt         ),
@@ -518,7 +520,10 @@ module core_region
         .ram_we_o   ( data_mem_we   ),
         .ram_be_o   ( data_mem_be   ),
         .ram_rdata_i( data_mem_rdata),
-        .ram_wdata_o( data_mem_wdata)
+        .ram_wdata_o( data_mem_wdata),
+        
+        //illegal acces signal
+        .illegal_access(irq_mpu_illegal)
     );
     
   //----------------------------------------------------------------------------//
