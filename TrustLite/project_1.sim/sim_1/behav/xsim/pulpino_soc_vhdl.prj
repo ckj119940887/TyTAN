@@ -1,0 +1,17 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_1.srcs/sim_1/imports/apb/apb_uart/apb_uart.vhd" \
+"../../../../project_1.srcs/sim_1/imports/apb/apb_uart/slib_clock_div.vhd" \
+"../../../../project_1.srcs/sim_1/imports/apb/apb_uart/slib_counter.vhd" \
+"../../../../project_1.srcs/sim_1/imports/apb/apb_uart/slib_edge_detect.vhd" \
+"../../../../project_1.srcs/sim_1/imports/apb/apb_uart/slib_fifo.vhd" \
+"../../../../project_1.srcs/sim_1/imports/apb/apb_uart/slib_input_filter.vhd" \
+"../../../../project_1.srcs/sim_1/imports/apb/apb_uart/slib_input_sync.vhd" \
+"../../../../project_1.srcs/sim_1/imports/apb/apb_uart/slib_mv_filter.vhd" \
+"../../../../project_1.srcs/sim_1/imports/apb/apb_uart/uart_baudgen.vhd" \
+"../../../../project_1.srcs/sim_1/imports/apb/apb_uart/uart_interrupt.vhd" \
+"../../../../project_1.srcs/sim_1/imports/apb/apb_uart/uart_receiver.vhd" \
+"../../../../project_1.srcs/sim_1/imports/apb/apb_uart/uart_transmitter.vhd" \
+
+# Do not sort compile order
+nosort

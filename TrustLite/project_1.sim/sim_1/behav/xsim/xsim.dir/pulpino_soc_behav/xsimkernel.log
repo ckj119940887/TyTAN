@@ -1,0 +1,7 @@
+Running: xsim.dir/pulpino_soc_behav/xsimk -simmode gui -wdb pulpino_soc_behav.wdb -simrunnum 0 -socket 57850
+Design successfully loaded
+Design Loading Memory Usage: 51244 KB (Peak: 51244 KB)
+Design Loading CPU Usage: 30 ms
+Simulation completed
+Simulation Memory Usage: 142868 KB (Peak: 198520 KB)
+Simulation CPU Usage: 210 ms

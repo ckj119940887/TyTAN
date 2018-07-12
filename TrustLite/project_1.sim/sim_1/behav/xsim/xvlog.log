@@ -1,0 +1,245 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/rtl/adbg_axi_biu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adbg_axi_biu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/rtl/adbg_axi_module.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adbg_axi_module
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/rtl/adbg_or1k_biu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adbg_or1k_biu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/rtl/adbg_or1k_module.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adbg_or1k_module
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/rtl/adbg_or1k_status_reg.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adbg_or1k_status_reg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/rtl/adbg_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adbg_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/rtl/adv_dbg_if.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adv_dbg_if
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb/apb2per/apb2per.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb2per
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb_event_unit/apb_event_unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_event_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb/apb_fll_if/apb_fll_if.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_fll_if
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb/apb_gpio/apb_gpio.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_gpio
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb/apb_i2c/apb_i2c.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_i2c
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb/apb_node/apb_node.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_node
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb/apb_node/apb_node_wrap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_node_wrap
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb/apb_pulpino/apb_pulpino.sv" into library xil_defaultlib
+WARNING: [VRFC 10-998] macro REG_STATUS redefined [/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb/apb_pulpino/apb_pulpino.sv:16]
+INFO: [VRFC 10-311] analyzing module apb_pulpino
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb/apb_spi_master/apb_spi_master.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_spi_master
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb/apb_timer/apb_timer.sv" into library xil_defaultlib
+WARNING: [VRFC 10-998] macro REGS_MAX_ADR redefined [/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb/apb_timer/apb_timer.sv:11]
+INFO: [VRFC 10-311] analyzing module apb_timer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb/apb_uart_sv/apb_uart.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_uart_sv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi2apb/axi2apb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi2apb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi2apb/axi2apb32.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi2apb32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/rtl/axi2apb_wrap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi2apb_wrap
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_node/axi_AR_allocator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_AR_allocator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_node/axi_AW_allocator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_AW_allocator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_node/axi_ArbitrationTree.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_ArbitrationTree
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_node/axi_BR_allocator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_BR_allocator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_node/axi_BW_allocator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_BW_allocator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_node/axi_DW_allocator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_DW_allocator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_node/axi_FanInPrimitive_Req.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_FanInPrimitive_Req
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_node/axi_RR_Flag_Req.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_RR_Flag_Req
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_node/axi_address_decoder_AR.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_address_decoder_AR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_node/axi_address_decoder_AW.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_address_decoder_AW
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_node/axi_address_decoder_BR.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_address_decoder_BR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_node/axi_address_decoder_BW.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_address_decoder_BW
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_node/axi_address_decoder_DW.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_address_decoder_DW
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_slice/axi_ar_buffer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_ar_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_slice/axi_aw_buffer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_aw_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_slice/axi_b_buffer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_b_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_mem_if_DP/axi_mem_if_SP.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_mem_if_SP
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/rtl/axi_mem_if_SP_wrap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_mem_if_SP_wrap
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_node/axi_multiplexer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_multiplexer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_node/axi_node.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_node
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/rtl/axi_node_intf_wrap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_node_intf_wrap
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_slice/axi_r_buffer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_r_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_mem_if_DP/axi_read_only_ctrl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_read_only_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_node/axi_request_block.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_request_block
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_node/axi_response_block.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_response_block
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_slice/axi_slice.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_slice
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/rtl/axi_slice_wrap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_slice_wrap
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_spi_slave/axi_spi_slave.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_spi_slave
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/rtl/axi_spi_slave_wrap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_spi_slave_wrap
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_slice/axi_w_buffer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_w_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_mem_if_DP/axi_write_only_ctrl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_write_only_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/rtl/boot_code.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module boot_code
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/rtl/boot_rom_wrap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module boot_rom_wrap
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/rtl/clk_rst_gen.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_rst_gen
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/rtl/components/cluster_clock_gating.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cluster_clock_gating
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/rtl/components/cluster_clock_inverter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cluster_clock_inverter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/rtl/components/cluster_clock_mux2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cluster_clock_mux2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/core2axi/core2axi.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module core2axi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/rtl/core2axi_wrap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module core2axi_wrap
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/rtl/core_region.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module core_region
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/new/data_ram_mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram_mux
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/new/ea_mpu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ea_mpu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/new/ea_mpu_ram.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ea_mpu_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/rtl/components/generic_fifo.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module generic_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb_event_unit/generic_service_unit.sv" into library xil_defaultlib
+WARNING: [VRFC 10-998] macro REGS_MAX_ADR redefined [/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb_event_unit/generic_service_unit.sv:25]
+INFO: [VRFC 10-311] analyzing module generic_service_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb/apb_i2c/i2c_master_bit_ctrl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i2c_master_bit_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb/apb_i2c/i2c_master_byte_ctrl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i2c_master_byte_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/rtl/instr_ram_wrap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instr_ram_wrap
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb/apb_uart_sv/io_generic_fifo.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module io_generic_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/rtl/periph_bus_wrap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module periph_bus_wrap
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/rtl/peripherals.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module peripherals
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/rtl/components/pulp_clock_inverter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pulp_clock_inverter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/rtl/components/pulp_clock_mux2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pulp_clock_mux2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/rtl/pulpino_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pulpino_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/rtl/ram_mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_mux
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/rtl/components/rstgen.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rstgen
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb_event_unit/sleep_unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sleep_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/rtl/components/sp_ram.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sp_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/rtl/sp_ram_wrap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sp_ram_wrap
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb/apb_spi_master/spi_master_apb_if.sv" into library xil_defaultlib
+WARNING: [VRFC 10-998] macro REG_STATUS redefined [/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb/apb_spi_master/spi_master_apb_if.sv:13]
+INFO: [VRFC 10-311] analyzing module spi_master_apb_if
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb/apb_spi_master/spi_master_clkgen.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_master_clkgen
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb/apb_spi_master/spi_master_controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_master_controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb/apb_spi_master/spi_master_fifo.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_master_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb/apb_spi_master/spi_master_rx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_master_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb/apb_spi_master/spi_master_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_master_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_spi_slave/spi_slave_axi_plug.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_slave_axi_plug
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_spi_slave/spi_slave_cmd_parser.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_slave_cmd_parser
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_spi_slave/spi_slave_controller.sv" into library xil_defaultlib
+WARNING: [VRFC 10-998] macro SPI_QUAD_TX redefined [/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_spi_slave/spi_slave_controller.sv:13]
+WARNING: [VRFC 10-998] macro SPI_QUAD_RX redefined [/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_spi_slave/spi_slave_controller.sv:14]
+INFO: [VRFC 10-311] analyzing module spi_slave_controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_spi_slave/spi_slave_dc_fifo.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_slave_dc_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_spi_slave/spi_slave_regs.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_slave_regs
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_spi_slave/spi_slave_rx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_slave_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_spi_slave/spi_slave_syncro.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_slave_syncro
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/axi/axi_spi_slave/spi_slave_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_slave_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb/apb_timer/timer.sv" into library xil_defaultlib
+WARNING: [VRFC 10-998] macro REGS_MAX_IDX redefined [/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb/apb_timer/timer.sv:13]
+INFO: [VRFC 10-311] analyzing module timer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb/apb_uart_sv/uart_interrupt.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_interrupt
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb/apb_uart_sv/uart_rx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb/apb_uart_sv/uart_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/project_1.srcs/zeroriscy_defines.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/zero-riscy/include/zeroriscy_defines.sv" into library xil_defaultlib
+WARNING: [VRFC 10-2421] module zeroriscy_defines is previously defined, ignoring this definition [/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/zero-riscy/include/zeroriscy_defines.sv:26]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/zero-riscy/zeroriscy_alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/zero-riscy/zeroriscy_compressed_decoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_compressed_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/zero-riscy/zeroriscy_controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/zero-riscy/zeroriscy_core.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/zero-riscy/zeroriscy_cs_registers.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_cs_registers
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/zero-riscy/zeroriscy_debug_unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_debug_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/zero-riscy/zeroriscy_decoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/zero-riscy/zeroriscy_ex_block.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_ex_block
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/zero-riscy/zeroriscy_fetch_fifo.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_fetch_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/zero-riscy/zeroriscy_id_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_id_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/zero-riscy/zeroriscy_if_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_if_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/zero-riscy/zeroriscy_int_controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_int_controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/zero-riscy/zeroriscy_load_store_unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_load_store_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/zero-riscy/zeroriscy_multdiv_fast.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_multdiv_fast
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/zero-riscy/zeroriscy_multdiv_slow.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_multdiv_slow
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/zero-riscy/zeroriscy_prefetch_buffer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_prefetch_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/zero-riscy/zeroriscy_register_file_ff.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_register_file
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/project_1.srcs/zeroriscy_tracer_defines.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/zero-riscy/include/zeroriscy_tracer_defines.sv" into library xil_defaultlib
+WARNING: [VRFC 10-2421] module zeroriscy_tracer_defines is previously defined, ignoring this definition [/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/zero-riscy/include/zeroriscy_tracer_defines.sv:11]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sources_1/imports/pulpino/ips/zero-riscy/zeroriscy_tracer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_tracer

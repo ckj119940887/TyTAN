@@ -1,0 +1,2 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/ckj/ckj_test/TrustLite/project_1.srcs/sim_1/imports/apb/apb_uart/uart_interrupt.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity uart_interrupt

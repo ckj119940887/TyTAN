@@ -1,0 +1,12 @@
+
+{ 
+    crc :  2922355692250867077  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 6341792b6a554aaeaa9aac0e8b2e5918 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot pulpino_soc_behav xil_defaultlib.pulpino_soc xil_defaultlib.glbl" , 
+    buildDate : "Dec 15 2017" , 
+    buildTime : "20:57:24" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/pulpino_soc_behav/xsimk\"   \"xsim.dir/pulpino_soc_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/pulpino_soc_behav/obj/xsim_1.lnx64.o\" \"xsim.dir/pulpino_soc_behav/obj/xsim_2.lnx64.o\" \"/opt/Xilinx_2017/Vivado/2017.4/lib/lnx64.o/librdi_simulator_kernel.so\" \"/opt/Xilinx_2017/Vivado/2017.4/lib/lnx64.o/librdi_simbridge_kernel.so\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 
